@@ -23,7 +23,7 @@
 # URL: http://www.smc.org.in
 
 import os
-from cmumapping import *
+from .cmumapping import *
 
 
 class CMUDict():

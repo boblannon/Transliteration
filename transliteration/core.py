@@ -26,8 +26,8 @@ __all__ = ['Transliterator', 'getInstance']
 
 import string
 import normalizer
-from cmudict import CMUDict
-import indic_en
+from .cmudict import CMUDict
+from . import indic_en
 from silpa_common.langdetect import detect_lang
 from silpa_common.charmap import charmap, charmap_transphon
 
